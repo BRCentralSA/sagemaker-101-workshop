@@ -92,9 +92,10 @@ Resources:
   NotebookInstance:
     Type: "AWS::SageMaker::NotebookInstance"
     Properties:
-      InstanceType: "ml.t3.medium"
+      InstanceType: "ml.p3.2xlarge"
       RoleArn: !GetAtt NotebookRole.Arn
       DefaultCodeRepository: https://github.com/BRCentralSA/sagemaker-advanced-workshop
+      VolumeSizeInGB: 100
       Tags:
         - Key: Name
           Value: "sagemakerworkshop"

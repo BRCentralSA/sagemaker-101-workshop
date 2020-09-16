@@ -1,4 +1,4 @@
-# Workshop Amazon SageMaker
+# Amazon SageMaker 101 Workshop 
 
 [![Documentation Status](https://readthedocs.org/projects/workshop-amazon-sagemaker/badge/?version=latest)](https://workshop-amazon-sagemaker.readthedocs.io/pt/latest/?badge=latest)
 

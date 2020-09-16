@@ -46,9 +46,7 @@ No ambiente Jupyter vá para a pasta **labs/01-sagemaker-introduction** e abra o
 
 Leia e execute cada estágio do notebook em Python clicando em **Run** ou através do atalho ``Shift+Enter``.
 
-
-
-
+.. image:: _static/01-sagemaker-introduction/sg_06.png
 
 Rotulação dos dados com Ground Truth
 ------------------------------------------------

@@ -1,5 +1,5 @@
 ************************************************
-Workshop Amazon SageMaker
+Amazon SageMaker 101 Workshop
 ************************************************
 
 .. image:: https://readthedocs.org/projects/workshop-amazon-sagemaker/badge/?version=latest
@@ -38,4 +38,3 @@ Pronto! Agora que já temos uma conta AWS disponível podemos prosseguir com o w
    
    intro_sagemaker
    custom_container
-   ml_review

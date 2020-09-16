@@ -4,7 +4,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = "Workshop Amazon SageMaker"
+project = "Amazon SageMaker 101 Workshop"
 author = "Gabriel Bella Martini"
 
 # -- General configuration ---------------------------------------------------
