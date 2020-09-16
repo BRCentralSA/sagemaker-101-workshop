@@ -2,6 +2,10 @@
 Workshop Amazon SageMaker
 ************************************************
 
+.. image:: https://readthedocs.org/projects/workshop-amazon-sagemaker/badge/?version=latest
+   :target: https://workshop-amazon-sagemaker.readthedocs.io/pt/latest/?badge=latest
+   :alt: Documentation Status
+
 Nesse workshop iremos efetuar diferentes etapas da criação de um modelo de Machine Learning dentro do Amazon SageMaker, introduzindo o serviço, automatizando a criação e implantação de modelos e por fim automatizando o processo de melhoria do modelo baseado em revisões com o Amazon A2I.
 
 Antes de começarmos
