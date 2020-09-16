@@ -8,9 +8,16 @@ Workshop Amazon SageMaker
 
 Nesse workshop iremos efetuar diferentes etapas da criação de um modelo de Machine Learning dentro do Amazon SageMaker, introduzindo o serviço, automatizando a criação e implantação de modelos e por fim automatizando o processo de melhoria do modelo baseado em revisões com o Amazon A2I.
 
+Para os laboratórios iremos utilizar um conjunto de dados (dataset) de imagens de raios-X de tórax. O dataset púbico foi disponibilizado pelo **National Institutes of Health (NIH)** 
+e está disponível em https://nihcc.app.box.com/v/ChestXray-NIHCC.
+O conjunto de dados compreende 112.120 imagens de raios-x de visão frontal de 30.805 pacientes únicos.
+
 Antes de começarmos
 --------------------
 .. note:: Caso esteja efetuando esse workshop acompanhado(a) de algum(a) organizador(a) da AWS verifique se o Event Engine estará disponível para o workshop.
+
+.. important:: Execute o workshop na região de N.Virgínia (us-east-1).
+
 
 Acesse a página da plataforma **Event Engine**: https://dashboard.eventengine.run/login
 
@@ -31,6 +38,4 @@ Pronto! Agora que já temos uma conta AWS disponível podemos prosseguir com o w
    
    intro_sagemaker
    custom_container
-   inferences
-   mlops
    ml_review
