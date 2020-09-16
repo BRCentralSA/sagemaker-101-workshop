@@ -22,6 +22,7 @@ Clique em **AWS Console** e após isso em **Open AWS Console**
 Pronto! Agora que já temos uma conta AWS disponível podemos prosseguir com o workshop.
 
 .. toctree::
+   :caption: Etapas do workshop
    :maxdepth: 2
    
    intro_sagemaker
