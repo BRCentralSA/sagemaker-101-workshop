@@ -10,7 +10,7 @@ Antes de começarmos
 
 Acesse a página da plataforma **Event Engine**: https://dashboard.eventengine.run/login
 
-Entre o **"hash" de 12 dígitos** que o(a) Arquiteto(a) da AWS providenciou e clique em **"Accept Terms & Login"**:
+Entre o **"hash" de 12 dígitos** que o(a) organizador(a) da AWS providenciou e clique em **"Accept Terms & Login"**:
 
 .. image:: _static/intro_01.png
 
