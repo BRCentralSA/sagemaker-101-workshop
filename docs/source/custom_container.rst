@@ -1,2 +1,17 @@
-Customizando o Amazon SageMaker com seu próprio container
-------------------------------------------------------------------
+*********************************
+Customizando o Amazon SageMaker
+*********************************
+
+Utilizando frameworks com o Script Mode
+------------------------------------------
+
+Criando o seu próprio container
+------------------------------------------
+
+------------------------------------------
+Treinamento com containers customizados
+------------------------------------------
+
+------------------------------------------
+Inferência com containers customizados
+------------------------------------------
