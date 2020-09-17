@@ -24,6 +24,17 @@ Aguarde a criação do ambiente e siga os tópicos seguintes.
 Utilizando frameworks com o Script Mode
 ------------------------------------------
 
+O Amazon SageMaker fornece containers predefinidos para oferecer suporte a diferentes frameworks, como Apache MXNet, TensorFlow, PyTorch e Chainer.
+Ele também oferece suporte a bibliotecas de machine learning, como scikit-learn e SparkML, fornecendo imagens de Docker predefinidas. Se você usar o SageMaker Python SDK, elas serão implantadas usando sua
+respectiva classe de Estimator do SageMaker SDK. Nesse caso, você pode fornecer o código Python que implementa seu algoritmo e configurar a imagem predefinida para acessar seu código como um ponto de entrada.
+
+.. image:: _static/02-sagemaker-custom/sg_05.jpg
+
+Para prosseguir, no ambiente Jupyter já configurado vá para a pasta **labs/02-sagemaker-custom/script-mode** e abra o notebook **sagemaker-custom-01.ipynb**.
+Leia e execute cada passo do notebook.
+
+.. image:: _static/02-sagemaker-custom/sg_06.png
+
 Criando o seu próprio container
 ------------------------------------------
 
