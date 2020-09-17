@@ -6,7 +6,7 @@
 <img src="images/aiml-icon.png">
 </p>
 
-Nesse workshop iremos efetuar diferentes etapas da criação de um modelo de Machine Learning dentro do [Amazon SageMaker](https://aws.amazon.com/pt/sagemaker/), introduzindo o serviço, automatizando a criação e implantação de modelos e por fim automatizando o processo de melhoria do modelo baseado em revisões com o [Amazon A2I](https://aws.amazon.com/pt/augmented-ai/).
+Nesse workshop iremos efetuar diferentes etapas da criação de um modelo de Machine Learning dentro do [Amazon SageMaker](https://aws.amazon.com/pt/sagemaker/), introduzindo o serviço, automatizando a criação e implantação de modelos.
 
 Acompanhe o workshop via readthedocs: https://workshop-amazon-sagemaker.readthedocs.io/pt/latest/
 

@@ -6,11 +6,7 @@ Amazon SageMaker 101 Workshop
    :target: https://workshop-amazon-sagemaker.readthedocs.io/pt/latest/?badge=latest
    :alt: Documentation Status
 
-Nesse workshop iremos efetuar diferentes etapas da criação de um modelo de Machine Learning dentro do Amazon SageMaker, introduzindo o serviço, automatizando a criação e implantação de modelos e por fim automatizando o processo de melhoria do modelo baseado em revisões com o Amazon A2I.
-
-Para os laboratórios iremos utilizar um conjunto de dados (dataset) de imagens de raios-X de tórax. O dataset púbico foi disponibilizado pelo **National Institutes of Health (NIH)** 
-e está disponível em https://nihcc.app.box.com/v/ChestXray-NIHCC.
-O conjunto de dados compreende 112.120 imagens de raios-x de visão frontal de 30.805 pacientes únicos.
+Nesse workshop iremos efetuar diferentes etapas da criação de um modelo de Machine Learning dentro do Amazon SageMaker, introduzindo o serviço, automatizando a criação e implantação de modelos.
 
 Antes de começarmos
 --------------------

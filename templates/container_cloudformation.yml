@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: SageMaker Workshop Template 2
+
+Parameters:
+  C9InstanceType:
+    Description: instância Cloud9
+    Type: String
+    Default: m5.xlarge
+    AllowedValues:
+      - m5.large
+      - m5.xlarge
+      - t3.large
+    ConstraintDescription: Entre uma instância válida (m4.large, m4.xlarge, t2.large)
+
+Resources:
+  C9Instance:
+    Type: AWS::Cloud9::EnvironmentEC2
+    Properties:
+      Description: AWS Cloud9
+      AutomaticStopTimeMinutes: 120
+      InstanceType:
+        Ref: C9InstanceType
+      Name:
+        Ref: AWS::StackName

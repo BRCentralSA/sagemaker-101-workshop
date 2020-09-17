@@ -8,10 +8,5 @@ Utilizando frameworks com o Script Mode
 Criando o seu próprio container
 ------------------------------------------
 
-------------------------------------------
-Treinamento com containers customizados
-------------------------------------------
-
-------------------------------------------
-Inferência com containers customizados
+Importando seu próprio modelo
 ------------------------------------------
