@@ -38,8 +38,14 @@ Leia e execute cada passo do notebook.
 Criando o seu próprio container
 ------------------------------------------
 
+No SageMaker, também é possível você utilizar um container próprio, tanto para o treinamento como para a inferência. A estrutura funciona da seguinte forma:
+
 .. image:: _static/02-sagemaker-custom/sg_03.gif
 
+Para prosseguir, no ambiente Jupyter já configurado vá para a pasta **labs/02-sagemaker-custom/byoc-mode** e abra o notebook **sagemaker-custom-02.ipynb**.
+Leia e execute cada passo do notebook.
+
+.. image:: _static/02-sagemaker-custom/sg_07.png
 
 Importando seu próprio modelo
 ------------------------------------------
