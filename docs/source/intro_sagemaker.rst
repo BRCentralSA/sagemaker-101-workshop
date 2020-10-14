@@ -54,11 +54,54 @@ Rotulação dos dados com Ground Truth
 ------------------------------------------------
 
 Como vimos no tópico anterior, rapidamente lançamos um ambiente de desenvolvimento em Jupyter e exploramos brevemente nosso dataset.
-Para esse workshop iremos trabalhar com um problema de classificação de imagens utilizando algoritmos supervisionados.
+Para esse workshop iremos trabalhar com um problema de detecção de objetos utilizando algoritmos supervisionados.
 
 .. note:: A aprendizagem supervisionada é útil nos casos em que uma propriedade (rótulo) está disponível para um determinado conjunto de dados (conjunto de treinamento).
 
-No caso, o dataset público que estamos utilizando já possui esses rótulos, entretanto, iremos demonstrar como é possível gerar rótulos em nosso dataset com o auxílio do `Amazon SageMaker Ground Truth <https://aws.amazon.com/pt/sagemaker/groundtruth/>`_.
+Neste exemplo, vamos utilizar outro dataset público `"500 Images of the Rear View" <http://www.zemris.fer.hr/projects/LicensePlates/english/results.shtml>`_. Iremos demonstrar como é possível gerar rótulos em nosso dataset com o auxílio do `Amazon SageMaker Ground Truth <https://aws.amazon.com/pt/sagemaker/groundtruth/>`_.
+
+Para começar, precisamos efetuar o download do dataset, para isso, abra o terminal do Jupyter notebook e execute os comandos:
+
+.. code-block:: Shell
+   
+   cd SageMaker
+   cd sagemaker-101-workshop/labs/01-sagemaker-introduction
+   wget www.zemris.fer.hr/projects/LicensePlates/english/baza_slika.zip
+   mkdir datasetcars
+   find . -name "baza_slika.zip" -type f -exec unzip -jd "datasetcars/" "{}" "*.jpg" \;
+
+Modifique o primeiro notebook que utilizamos para fazer o upload das imagens em um bucket do Amazon S3. Em seguida, vamos criar uma força de trabalho para a rotulação. Vá para a console do Amazon SageMaker e clique em **Labeling workforces**.
+
+.. image:: _static/01-sagemaker-introduction/sg_08.png
+
+Vá para a aba **Private**, clique em **Create private team** e coloque o nome de **aws-sagemaker-workshop-team**, finalize a criação.
+
+.. image:: _static/01-sagemaker-introduction/sg_09.png
+
+Entre no time e adicione novos especialistas clicando em **Add workers to team**, digite seu e-mail.
+
+.. image:: _static/01-sagemaker-introduction/sg_10.png
+
+Com os especialistas registrados, podemos criar o trabalho de rotulação. Ao lado esquerdo, clique em **Labeling jobs**.
+
+.. image:: _static/01-sagemaker-introduction/sg_11.png
+
+Selecione **Create labeling job** e coloque o nome de **aws-workshop-cars**. Adicione o caminho do bucket que você efetuou o upload do dataset, selecione **Image** como **Data Type** e crie uma nova **Role**.
+Após isso, clique em **Complete data setup**.
+
+.. image:: _static/01-sagemaker-introduction/sg_12.png
+
+Para a task type selecione **Bounding Box**.
+
+Na página seguinte iremos selecionar o time de especialistas que criamos anteriormente. Na configuração da ferramente apenas adicione uma label com o nome de **placa**.
+
+.. image:: _static/01-sagemaker-introduction/sg_13.png
+
+Os especialistas irão receber um e-mail com acesso a plataforma web para efetuar a rotulação. Após finalizado, podemos efetuar o treinamento do modelo.
+
+No ambiente Jupyter vá para a pasta **labs/01-sagemaker-introduction** e abra o arquivo **car-plate-recognition.ipynb**
+
+Leia e execute cada estágio do notebook em Python clicando em **Run** ou através do atalho ``Shift+Enter``.
 
 Treinamento e Inferência com algoritmos built-in
 ------------------------------------------------
